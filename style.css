@@ -1,0 +1,148 @@
+* {
+    font-family: helvetica, sans-serif;
+    //font-size: 22px;
+    color: seashell;
+    //background-color: black;
+    //opacity: 0.9;
+    //text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    height: 69px;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li {
+    text-decoration: none;
+    float: left;
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.nav img {
+    height: 50px;
+}
+
+.mission {
+    position: relative;
+    padding-top: 70px;
+    background-image: url("img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+}
+
+.mission_one {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.feature {
+    position: relative;
+    margin-top: 50px;
+    top: 70px;
+    width: 1000px;
+    line-height: 2;
+}
+
+.box_feature {
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    top: 70px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.box_feature img {
+    display: block;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.box {
+    margin-bottom: 15px;
+}
+
+.location {
+    position: relative;
+    top: 70px;
+    width: 1200px;
+    height: 500px;
+    background-image: url("img-locations-background.jpg");
+}
+
+.loc_address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loc_address h2 {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.box2 {
+    width: 300px;
+    margin: 0 20px;
+    padding: 10px;
+    line-height: 3;
+    background-color: black;
+    opacity: 1;
+}
+
+.cta {
+    position: relative;    
+    top:70px;
+    height: 200px;
+    line-height: 3;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    top: 70px;
+}

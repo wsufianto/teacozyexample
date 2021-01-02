@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    height: 69px;
+    align-items: center;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    text-decoration: none;
+    float: left;
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+nav a {
+    cursor: pointer;
+    color: seashell;
+}
+
+main {
+    padding-top: 69px;
+    margin: auto;
+    opacity: 0.9;
+    width: 1200px;
+}
+
+#mission {
+    padding-top: 70px;
+    background-image: url("img-mission-background.jpg");
+    height: 700px;
+    text-align: center;
+}
+
+.mission_one {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+h2, h4, h5 {
+    margin: 0;
+    padding: 10px;
+}
+
+.feature {
+    padding-top: 70px;
+    width: 1000px;
+    margin: auto;
+}
+
+.box_feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.box_feature img {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.box p {
+    font-weight: bold;
+    padding: 5px;
+}
+.box {
+    padding: 5px;
+}
+
+.location {
+    margin-top: 50px;
+    padding-top: 70px;
+    width: 1200px;
+    height: 500px;
+    background-image: url("img-locations-background.jpg");
+}
+
+.loc_address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.loc_address h2 {
+    width: 100%;
+}
+
+.box2 {
+    width: 300px;
+    margin: 5px 20px;
+    padding: 10px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 280px;
+    line-height: 2.75;
+}
+
+.cta { 
+    height: 200px;
+}
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
