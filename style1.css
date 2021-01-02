@@ -129,7 +129,21 @@ h2, h4, h5 {
 .cta { 
     height: 200px;
 }
+
 footer {
     padding-left: 20px;
     text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.8rem;
+    }
+    main, 
+    .box_feature, 
+    .location,
+    .feature { 
+        width: 480px;
+        height: auto;
+    }
 }
