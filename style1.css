@@ -19,6 +19,7 @@ header{
     height: 69px;
     align-items: center;
     background-color: black;
+    margin: auto;
 }
 
 header img {
@@ -135,7 +136,7 @@ footer {
     text-align: left;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)  {
     body {
         font-size: 0.8em;
     }
@@ -165,4 +166,35 @@ footer {
         padding-bottom: 20px;
     }
 
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    body {
+        font-size: 0.8em;
+    }
+
+    header img {
+        height: 25px;
+        padding-left: 10px;
+    }
+
+    main,
+    .feature,
+    .box_feature,
+    .location {
+        margin: auto;
+        height: auto;
+        width: 600px;
+    }
+
+    #mission {
+        background-size: cover;
+        height: 300px;
+    }
+
+    .location {
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 20px;
+    }
 }
