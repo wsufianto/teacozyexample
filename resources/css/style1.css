@@ -53,7 +53,7 @@ main {
 
 #mission {
     padding-top: 70px;
-    background-image: url("img-mission-background.jpg");
+    background-image: url("../images/img-mission-background.jpg");
     height: 700px;
     text-align: center;
 }
@@ -102,7 +102,7 @@ h2, h4, h5 {
     padding-top: 70px;
     width: 1200px;
     height: 500px;
-    background-image: url("img-locations-background.jpg");
+    background-image: url("../images/img-locations-background.jpg");
 }
 
 .loc_address {
